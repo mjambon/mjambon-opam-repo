@@ -1,0 +1,14 @@
+opam-version: "1.2"
+maintainer: "martin@mjambon.com"
+authors: ["Martin Jambon"]
+
+homepage: "https://github.com/mjambon/moving-percentile"
+bug-reports: "https://github.com/mjambon/moving-percentile/issues"
+dev-repo: "https://github.com/mjambon/moving-percentile.git"
+
+build: [ [make] ]
+remove: [ [make "uninstall"]  ]
+depends: [
+  "ocamlfind"
+]
+install: [make "install" "BINDIR=%{bin}%"]
