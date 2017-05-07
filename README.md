@@ -5,7 +5,7 @@ hosted on by @mjambon.
 
 ## Package list
 
-* `moving-percentile`
+https://github.com/mjambon/mjambon-opam-repo/tree/master/packages
 
 ## Installing a package
 
