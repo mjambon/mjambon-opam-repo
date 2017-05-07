@@ -1,0 +1,15 @@
+opam-version: "1.2"
+maintainer: "martin@mjambon.com"
+authors: ["Martin Jambon"]
+
+homepage: "https://github.com/mjambon/unitron"
+bug-reports: "https://github.com/mjambon/unitron/issues"
+dev-repo: "https://github.com/mjambon/unitron.git"
+
+build: [ [make] ]
+remove: [ [make "uninstall"]  ]
+depends: [
+  "ocamlfind"
+  "moving-percentile"
+]
+install: [make "install" "BINDIR=%{bin}%"]
